@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.407e6aa2.css",
-    "main.js": "/static/js/main.7d0f9e3a.js",
+    "main.js": "/static/js/main.cc15d73c.js",
     "static/media/grad.png": "/static/media/grad.9c632b5baaddf26c7027.png",
     "static/media/research.pdf": "/static/media/research.bf7fb6972326c4c54e66.pdf",
     "static/media/bea.pdf": "/static/media/bea.4873d69398e5457dbadd.pdf",
@@ -12,6 +12,6 @@
   },
   "entrypoints": [
     "static/css/main.407e6aa2.css",
-    "static/js/main.7d0f9e3a.js"
+    "static/js/main.cc15d73c.js"
   ]
 }
