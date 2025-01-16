@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gabby/static/css/main.99e5f501.css",
+    "main.css": "/gabby/static/css/main.407e6aa2.css",
     "main.js": "/gabby/static/js/main.296db853.js",
     "static/media/grad.png": "/gabby/static/media/grad.9c632b5baaddf26c7027.png",
     "static/media/research.pdf": "/gabby/static/media/research.bf7fb6972326c4c54e66.pdf",
@@ -11,7 +11,7 @@
     "index.html": "/gabby/index.html"
   },
   "entrypoints": [
-    "static/css/main.99e5f501.css",
+    "static/css/main.407e6aa2.css",
     "static/js/main.296db853.js"
   ]
 }
