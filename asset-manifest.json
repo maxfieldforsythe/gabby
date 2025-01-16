@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.99e5f501.css",
+    "main.js": "/static/js/main.86502e59.js",
+    "static/media/grad.png": "/static/media/grad.9c632b5baaddf26c7027.png",
+    "static/media/research.pdf": "/static/media/research.bf7fb6972326c4c54e66.pdf",
+    "static/media/bea.pdf": "/static/media/bea.4873d69398e5457dbadd.pdf",
+    "static/media/rcv.pdf": "/static/media/rcv.93fa20ff5213e15d20fc.pdf",
+    "static/media/halcion.pdf": "/static/media/halcion.e67a3bd06ba779ae002a.pdf",
+    "static/media/cv.pdf": "/static/media/cv.485d8f3d93a99b419add.pdf",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.99e5f501.css",
+    "static/js/main.86502e59.js"
+  ]
+}
