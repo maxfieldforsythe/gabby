@@ -1,23 +1,27 @@
-const logotext = "JOHN";
+import research from "./assets/pdf/research.pdf"
+import rcv from "./assets/pdf/rcv.pdf"
+import halcion from "./assets/pdf/halcion.pdf"
+import bea from "./assets/pdf/bea.pdf"
+
+const logotext = "Gabrielle";
 const meta = {
     title: "John Doe",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "My name’s Gabi.",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a recent journalism graduate with a minor in Creative Writing and a strong academic record. I have experience in research, writing, content creation, and multimedia production, with a particular interest in exploring complex global and national issues. ",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "In the midst of the pandemic, I found myself watching movies every day, captivated by the idea that storytelling is more of a mirror of our personal views and identities than an accurate representation of reality. This realization sparked my deep dive into understanding how these narratives naturally shape journalism and its effect on global politics. My research includes studies like “Beyond Black and White: Unraveling U.S. Media Narratives of Ukraine’s Far-Right” and “Visual Propaganda: Analyzing Discourse From Ukraine’s Far-Right Online,” where I examined media narratives surrounding far-right militias in Ukraine from a linguistic perspective. After defending my honors thesis and graduating summa cum laude, I was fortunate to continue my research and debut my findings at the symposium for The Impact of Disinformation and Misinformation on Democratic Society. I take pride in my ability to approach each project with curiosity and a solution-focused mindset, always striving to make complex issues understandable while maintaining a strong sense of ethics and responsibility.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,23 +41,35 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Research",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Media Law",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Adobe Suite",
         value: 80,
     },
     {
-        name: "React",
+        name: "Google Suite",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Microsoft Office",
+        value: 60,
+    },
+    {
+        name: "APA and AP Styling",
+        value: 85,
+    },
+    {
+        name: "Photography",
+        value: 85,
+    },
+    {
+        name: "Videography",
         value: 85,
     },
 ];
@@ -74,71 +90,45 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Visual Propaganda: Analyzing Discourse From Ukraine’s Far-Right Online",
+        link: research,
+        video: ""
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Ranked Choice Voting for Colorado is Challenging the Two-Party System One City at a time",
+        link: rcv,
+        video: ""
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Halcyon’s New Day: How a Boulder School Transforms the Mental Health of its Troubled Students",
+        link: halcion,
+        video: "https://www.youtube.com/watch?v=CfKiFJw2Tcg"
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "UNRAVELING U.S. MEDIA NARRATIVES OF UKRAINE’S FAR-RIGHT (BEA symposium)",
+        link: bea,
+        video: ""
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Work From Home News Story",
+        link: "",
+        video: "https://www.youtube.com/watch?v=9y4MB3FNLQg&authuser=0"
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Sammy Profile Story",
+        link: "",
+        video: "https://www.youtube.com/watch?v=dpSmykkrIEU&authuser=0"
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "gabi@gabriellegomez.com",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -152,6 +142,7 @@ const socialprofils = {
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
 };
+
 export {
     meta,
     dataabout,
