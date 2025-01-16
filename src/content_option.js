@@ -96,7 +96,7 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "Ranked Choice Voting for Colorado is Challenging the Two-Party System One City at a time",
+        description: "Ranked Choice Voting for Colorado is Challenging the Two-Party System One City at a Time",
         link: rcv,
         video: ""
     },
@@ -108,7 +108,7 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "UNRAVELING U.S. MEDIA NARRATIVES OF UKRAINE’S FAR-RIGHT (BEA symposium)",
+        description: "Unraveling U.S. Media Narratives of Ukraines’s Far-Right",
         link: bea,
         video: ""
     },
