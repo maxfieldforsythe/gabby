@@ -5,9 +5,9 @@ import bea from "./assets/pdf/bea.pdf"
 
 const logotext = "Gabrielle";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
-};
+    title: "Gabi Gomez",
+    description: "I’m Gabi Gomez. Journalist based in New York.",
+}
 
 const introdata = {
     title: "My name’s Gabi.",
