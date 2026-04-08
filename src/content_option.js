@@ -16,7 +16,7 @@ const introdata = {
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "I am a recent journalism graduate with a minor in Creative Writing and a strong academic record. I have experience in research, writing, content creation, and multimedia production, with a particular interest in exploring complex global and national issues. ",
+    description: "Journalism graduate and communications professional with a strong foundation in research, writing, and analysis. Experienced in producing high-volume, deadline-driven content and translating complex topics into clear, engaging narratives for broad audiences. Brings a sharp editorial voice, strong news judgment, and a deep interest in global affairs and media narratives.",
 };
 
 const dataabout = {
@@ -90,8 +90,14 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "Visual Propaganda: Analyzing Discourse From Ukraine’s Far-Right Online",
-        link: research,
+        description: "Unraveling U.S. Media Narratives of Ukraine’s Far-Right",
+        link: bea,
+        video: ""
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Wizards E-Sports Continues to Conquer Statewide",
+        link: "https://www.wcsdk12.org/district/news/post-details/~board/wcsd-news/post/wizards-esports-team-continues-to-shine-following-essef-state-championship-victory",
         video: ""
     },
     {
@@ -108,8 +114,8 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "Unraveling U.S. Media Narratives of Ukraines’s Far-Right",
-        link: bea,
+        description: "Visual Propaganda: Analyzing Discourse From Ukraine’s Far-Right Online",
+        link: research,
         video: ""
     },
     {
@@ -123,6 +129,48 @@ const dataportfolio = [{
         description: "Sammy Profile Story",
         link: "",
         video: "https://www.youtube.com/watch?v=dpSmykkrIEU&authuser=0"
+    },
+        {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Sadie Profile Story",
+        link: "https://www.warwickvalleyschools.com/post-details-dbpp/~board/district-news-announcements/post/superintendents-spotlight-sadie-cirbus",
+        video: ""
+    },
+        {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Juely Profile Story",
+        link: "https://www.warwickvalleyschools.com/post-details-dbpp/~board/district-news-announcements/post/superintendents-spotlight-juely-duran",
+        video: ""
+    },
+        {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Sydney Profile Story",
+        link: "https://www.warwickvalleyschools.com/post-details-dbpp/~board/district-news-announcements/post/superintendents-spotlight-sydney-introini",
+        video: ""
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Bay Profile Story",
+        link: "https://www.warwickvalleyschools.com/post-details-dbpp/~board/district-news-announcements/post/superintendents-spotlight-bay-orr",
+        video: ""
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Wizards Path: Megan",
+        link: "https://www.wcsdk12.org/district/news/post-details/~board/wcsd-news/post/a-wizards-path-megan-bushey",
+        video: ""
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Superintendent's Spotlight: Wildcats Robotics Team",
+        link: "https://www.warwickvalleyschools.com/post-details-dbpp/~board/district-news-announcements/post/superintendents-spotlight-wildcats-robotics-team",
+        video: ""
+    },
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        description: "Athletic Department Opening Day",
+        link: "",
+        video: "https://youtu.be/M-571Is7GNw"
     },
 ];
 
